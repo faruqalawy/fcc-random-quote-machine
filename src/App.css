@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  flex-direction: column;
 }
 
 #quote-box {
@@ -54,10 +55,24 @@ button, a {
   justify-content: space-around;
 }
 
-#new-quote {
-  
+.by-faruq {
+  text-align: center;
+  margin-top: 20px;
 }
 
-#text {
-  margin-left:;
+.buttons {
+  display: flex;
+  justify-content: space-between; /* Menjadikan tombol berada di ujung kanan */
+  width: 100%; /* Menyebarkan elemen secara penuh di dalam .quote-content */
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+#tweet-quote,
+#tumblr-quote {
+  margin-right: 10px; /* Memberi jarak antara ikon Twitter dan WhatsApp */
 }
